@@ -10,7 +10,7 @@ from langchain.llms import OpenAI
 def pre_setup():
     print('inside pre_setup')
     # os.environ["OPENAI_API_KEY"] = ""
-    os.environ["OPENAI_API_KEY"] = "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"
+    os.environ["OPENAI_API_KEY"] = "your key here"
     doc_reader = PdfReader('data/QA.pdf')
 
     # read data from the file and put them into a variable called raw_text
